@@ -1,7 +1,7 @@
-require "somleng/rtd_client/version"
-
 module Somleng
-  module RtdClient
-    # Your code goes here...
+  module RTDClient
   end
 end
+
+require_relative "rtd_client/request"
+require_relative "rtd_client/response"
